@@ -1,4 +1,4 @@
-Predictive Cybercrime Intelligence System
+Predictive Cybercrime Intelligence System:
 An AI-assisted predictive analytics framework designed to analyze
 cybercrime complaints, financial transaction relationships, and
 geographic patterns to forecast locations that may require attention for
@@ -17,12 +17,14 @@ The system is intended to help authorized investigators identify
 potential withdrawal hotspots earlier. Predictions are decision-support
 signals, not proof of criminal activity. Final assessment and
 intervention remain with authorized human investigators.
+
 Problem Statement
 Cyber-fraud proceeds can move quickly through connected accounts and
 transactions, making it difficult for investigators to identify where
 cash withdrawals may occur next. This project proposes a predictive
 analytics workflow that links complaint, account, transaction, time, and
 location information to estimate likely withdrawal areas.
+
 Proposed Architecture:
 Data Sources
 (complaints, transactions, UPI, ATM, GIS/location)
@@ -59,6 +61,7 @@ Alert and Report
         |
         v
 Outcome Feedback and controlled model updates
+
 Key Components
 1. Data ingestion and preparation --- accepts authorized complaint,
    transaction, account, time, and geographic data; performs cleaning,
@@ -80,6 +83,7 @@ Key Components
    feeds or computer-vision anomaly flags.
 8. Outcome feedback --- uses verified investigation outcomes for
    controlled model evaluation and updates.
+   
 Proposed Technology Stack
   Layer                     Proposed technologies
   Frontend                  React
@@ -108,6 +112,7 @@ Data, Privacy, and Responsible Use
   coverage before operational use.
 - Model updates should be validated and approved; avoid unreviewed
   automatic retraining from unverified outcomes.
+  
 Project Status
 Status: Proposal / prototype development.
 
