@@ -1,0 +1,6 @@
+{
+  "name": "Predictive Cybercrime Intelligence System",
+  "description": "Predictive analytics framework for cybercrime complaints to forecast likely cash withdrawal locations in advance, enabling proactive law-enforcement intervention.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

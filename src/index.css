@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-tech {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .font-body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom dark map styling for Leaflet */
+.dark-tiles .leaflet-tile {
+  filter: brightness(0.68) invert(1) contrast(2.8) hue-rotate(195deg) saturate(0.3);
+}
+
+.leaflet-container {
+  background-color: #0b111e !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.leaflet-popup-tip {
+  background: #0f172a !important;
+}
+
+/* Custom sleek scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
